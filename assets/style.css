@@ -17,7 +17,7 @@ body {
   background: #ffffff;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -72,10 +72,22 @@ main {
 
 h1 {
   margin: 0 0 1.5rem;
-  font-size: clamp(2.2rem, 6vw, 3.5rem);
-  line-height: 1.05;
+  font-size: clamp(1.9rem, 3.6vw, 2.8rem);
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+.event-heading {
+  font-weight: 500;
+}
+
+.event-title {
+  display: block;
+  margin-top: 0.4em;
+  color: #5f6875;
+  font-weight: 800;
   letter-spacing: -0.04em;
-  font-weight: 650;
 }
 
 p {

@@ -41,7 +41,7 @@ if (background) {
     triangle.style.top = `${position.top}%`;
     triangle.style.background = colors[Math.floor(Math.random() * colors.length)];
     triangle.style.filter = `blur(${random(30, 52)}px)`;
-    triangle.style.opacity = random(0.07, 0.14);
+    triangle.style.opacity = random(0.07, 0.15);
     triangle.style.animationDuration = `${random(32, 60)}s`;
     triangle.style.animationDirection = Math.random() > 0.5 ? "normal" : "reverse";
     triangle.style.setProperty("--start-angle", `${random(0, 360)}deg`);
