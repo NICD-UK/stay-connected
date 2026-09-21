@@ -1,3 +1,3 @@
 # Stay Connected
 
-A GitHub Pages landing page for retired training environments.
+Archived repository previously used to host retired URLs via GitHub Pages.
